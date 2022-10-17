@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(31, 116, 20);
+    height: 100px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+body {
+    font-family: Mulish;
+}
+
+.nav {
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+} 
+
+button {
+    background-color: rgb(31, 116, 20);
+    border: none;
+    border-radius: 15px; 
+    padding-left: 60px;
+    padding-right: 60px;
+    color: white;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: rgb(16, 71, 8);
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 30pt;
+ }
+.card {
+    width:350px;
+    height: 450px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.box {
+    display: flex;    
+    flex-wrap: wrap;    
+    row-gap: 30px;
+    column-gap: 40px;
+    
+}
+h2 {
+    font-size: 12pt;
+    text-align: center;
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-info {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.buy-info {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.avaliable {
+    font-size: 10pt;
+    
+}
+.number {
+    font-size: 10pt;
+}
+.price {
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+input {
+    background-color: rgb(31, 116, 20);
+    border: 0;
+    border-radius: 2px;
+    font-size: 16px; 
+    width: 100px;
+    height: 30px;
+    color: white;
+}
+input:hover {
+    background-color: rgb(16, 71, 8);  
+    width: 120px;
+    height: 35px;  
+}
+
+.footer {
+    background-color: rgb(49, 48, 48);
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    align-items: flex-end;
+}
+a {
+    color: beige;
+}
