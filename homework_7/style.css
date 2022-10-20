@@ -19,7 +19,6 @@ body {
     margin-left: calc(412 / 1440 * 100vw);
     box-shadow: 0px 0px 40px 10px rgb(0 0 0 / 25%);
     padding: calc(26 / 1440 * 100vw) calc(45 / 1440 * 100vw)
-   
 }
 
 .container__form {
@@ -31,14 +30,12 @@ body {
 .container__heading {
     color: #787878;
     font-size: calc(50 / 1440 * 100vw);
-    font-family: Roboto;
     font-weight: 700;
     margin-bottom: 0;
     margin-top: 0;
 }
 
 .container__label-email {
-    font-family: Roboto;
     font-size: calc(16 / 1440 * 100vw);
     color: #787878;
     font-weight: 700;
@@ -52,11 +49,9 @@ body {
     margin-bottom: calc(15 / 1440 * 100vw);
     display: flex;
     justify-content: center;
-    
 }
 
 .container__input-text {
-    font-family: Roboto;
     font-size: calc(28 / 1440 * 100vw);
     color: #787878;
     font-weight: 700;
@@ -65,8 +60,6 @@ body {
     border-radius: calc(10 / 1440 * 100vw);
     width: 100%;
     line-height: calc(36 / 1440 * 100vw);
-    
-
 }
 
 .container__input-text::-webkit-input-placeholder {
@@ -82,7 +75,6 @@ body {
 }
 
 .container__label-password {
-    font-family: Roboto;
     font-size: calc(16 / 1440 * 100vw);
     color: #787878;
     font-weight: 700;
@@ -102,7 +94,6 @@ body {
     margin-bottom: calc(52 / 1440 * 100vw);
     display: flex;
     align-items: center;
-    
 }
 
 .container__input-checkbox {
@@ -151,7 +142,6 @@ body {
 }
 .container__input-checkbox:checked + .container__label-checkbox::after {
     opacity: 1;
-
 }
 
 .container__button {
@@ -174,7 +164,6 @@ body {
         margin: calc(20 / 768 * 100vw);
         box-shadow: 0px 0px 40px 10px rgb(0 0 0 / 25%);
         padding: calc(38 / 768 * 100vw) calc(45 / 768 * 100vw) calc(242 / 768 * 100vw)
-       
     }
     
     .container__heading {
@@ -186,7 +175,6 @@ body {
         line-height: calc(16 / 768 * 100vw);
         margin-left: calc(8 / 768 * 100vw);
         margin-bottom: calc(8 / 768 * 100vw);
-        
     }
     
     .container__input_email {
@@ -209,7 +197,6 @@ body {
     }
     .container__input_password {
         margin-bottom: calc(19 / 768 * 100vw);
-        
     }
     
     .container__checkbox {
@@ -219,9 +206,7 @@ body {
     .container__label-checkbox {
         padding-left: calc(42 / 768 * 100vw);
         font-size: calc(18 / 768 * 100vw);
-        
         line-height: calc(16 / 768 * 100vw);
-        
         padding-top: calc(8 / 768 * 100vw);
     }
     
@@ -230,7 +215,6 @@ body {
         height: calc(32 / 768 * 100vw);
         border: 2px solid #787878;
         border-radius: calc(7 / 768 * 100vw);
-        
     }
     
     .container__label-checkbox::after {
@@ -238,7 +222,6 @@ body {
         left: calc(-5 / 768 * 100vw);;
         width: calc(45 / 768 * 100vw);
         height: calc(45 / 768 * 100vw);
-       
     }
     
     .container__button {
