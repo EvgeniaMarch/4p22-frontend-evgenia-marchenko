@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: calc(600 / 1440 * 100vw);
+    width: 45%;
     background: #FFFFFF;
     border-radius: calc(20 / 1440 * 100vw);
     margin-top: calc(134 / 1440 * 100vw);
