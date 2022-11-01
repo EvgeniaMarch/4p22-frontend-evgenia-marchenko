@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link rel="stylesheet" href="./font.css" type="text/css" />
+    <title>Enter-form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="container__heading">Вход</h1>
+      <form class="container__form" form="" method="post">
+        <label for="email" class="container__label-email">Email</label>
+
+        <div class="container__input_email">
+          <input
+            type="email"
+            id="email"
+            placeholder="Введите email"
+            class="container__input-text"
+          />
+        </div>
+        <label for="password" class="container__label-password">Пароль</label>
+        <div class="container__input_password">
+          <input
+            type="password"
+            id="password"
+            placeholder="Введите пароль"
+            class="container__input-text"
+          />
+        </div>
+
+        <div class="container__checkbox">
+          <input
+            type="checkbox"
+            id="permission"
+            class="container__input-checkbox"
+          />
+          <label for="permission" class="container__label-checkbox"
+            >Я согласен получать обновления на почту</label
+          >
+        </div>
+        <input class="container__button" type="submit" value="Войти" />
+      </form>
+    </div>
+  </body>
+</html>
