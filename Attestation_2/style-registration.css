@@ -106,11 +106,59 @@ body {
 }
 
 .container__label {
+    position: relative;
     font-size: 16px;
     color: #787878;
     font-weight: 700;
     line-height: 16px;
     margin-bottom: 1%;
+    margin-left: -12px;
+
+}
+
+.container__error-email {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #EE2424;
+}
+.container__error-password {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #EE2424;
+    
+}
+
+.container__error-confirmation {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #EE2424;
+}
+/* .container__error-hidden {
+    opacity: 0
+} */
+
+.container__error-email1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #EE2424;
+}
+
+.error {
+    border: 2px solid #EE2424;
+    color: #787878;
+}
+
+.container__req {
+    margin-right: 4px;
+    font-size: 16px;
+}
+
+.container__label.radio-label {
+margin-left: 0px;
 }
 
 .container__radio {
@@ -176,6 +224,10 @@ body {
     padding-left: 3%;
     margin-bottom: 24px;
     resize: none;
+}
+
+.container__label.textarea-label {
+    margin-left: 0px;
 }
 
 .container__textarea-input_text::-webkit-input-placeholder {
@@ -280,6 +332,15 @@ body {
     
     .container__heading {
         font-size: 50px;
+    }
+
+    .container__label {
+        margin-left: -13px;
+    }
+
+    .container__req {
+        margin-right: 3px;
+        
     }
     
     .container__radio {

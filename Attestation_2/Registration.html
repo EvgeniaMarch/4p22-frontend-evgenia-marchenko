@@ -14,53 +14,57 @@
       <div class="header__course">PCS Frontend</div>
         <div class="header__links">
           <a href="" class="header__registration">Регистрация</a>
-          <a href="./index.html" class="header__enter">Вход</a>
+          <a href="" class="header__enter">Вход</a>
         </div>
     </header>
     <div class="container">
       <h1 class="container__heading">Регистрация</h1>
-      <form class="container__form" form="" method="post">
-        <label for="email" class="container__label">Email</label>
+      <form class="container__form" form="" method="post" novalidate>
+        <label for="email" class="container__label"><span class="container__req">*</span>Email<span class="container__error-email"></span> 
+          </label>
 
         <div class="container__input">
           <input
-            type="email"
+            type="text"
             id="email"
             placeholder="Введите email"
             class="container__input-text"
+            
           />
         </div>
-        <label for="password" class="container__label">Пароль</label>
+        <label for="password" class="container__label"><span class="container__req">*</span>Пароль<span class="container__error-password"></span></label>
         <div class="container__input">
           <input
             type="password"
             id="password"
             placeholder="Введите пароль"
             class="container__input-text"
+            
           />
         </div>
-        <label for="confirmation" class="container__label">Подтверждение пароля</label>
+        <label for="confirmation" class="container__label"><span class="container__req">*</span>Подтверждение пароля<span class="container__error-confirmation"></span></label>
         <div class="container__input">
         <input
             type="password"
             id="confirmation"
             placeholder="Подтвердите пароль"
             class="container__input-text"
+            
         />
         </div>
-        <div class="container__label">Пол</div>
+        <div class="container__label radio-label">Пол</div>
          
         <div class="container__radio">
-            <input type="radio" id="radio" name="gender" value="Men" class="container__radio-input">
-            <label for="radio" class="container__radio-label">Мужчина</label></div>
+            <input type="radio" id="radio1" name="gender" value="Men" class="container__radio-input">
+            <label for="radio1" class="container__radio-label">Мужчина</label></div>
               <div class="container__radio">
-                <input type="radio" id="radio" name="gender" value="Women" class="container__radio-input">
-                <label for="radio" class="container__radio-label">Женщина</label>
+                <input type="radio" id="radio2" name="gender" value="Women" class="container__radio-input">
+                <label for="radio2" class="container__radio-label">Женщина</label>
               </div>
                 
-        <label for="about" class="container__label">О себе</label>
+        <label for="about" class="container__label textarea-label">О себе</label>
         <div class="container__textarea-input">
-          <textarea for="about" name="about" 
+          <textarea id="about" name="about" 
           placeholder="Расскажите о себе..." 
           class="container__textarea-input_text"
           rows="6"></textarea>
@@ -82,6 +86,6 @@
     
       </form>
     </div>
-    
+    <script src="./script.js"></script>
   </body>
 </html>
